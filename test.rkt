@@ -28,3 +28,10 @@
 
 (test 5)
 (test 20)
+
+(define (square x) (exp (double (log x))))
+(define (double x) (+ x x))
+(square 10)
+(double (log 10))
+(log 10)
+

@@ -6,6 +6,7 @@
 
   Applicative order evaluation
   - evaluate all arguments, then apply operator
+  - lisp uses this one
 
   Normal-order evaluation
   - fully expand and then reduce

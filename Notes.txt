@@ -23,3 +23,7 @@
 
 (not <e>)
 - true when exp. evaluates to false, and vice versa
+
+Block structure
+- define subroutines within function to hide implementation
+  details
