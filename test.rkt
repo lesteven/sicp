@@ -1,5 +1,6 @@
 #lang sicp
 
+#|
 (inc 42)
 (inc 99)
 (define size 2)
@@ -18,4 +19,12 @@
         ))
 
 (abs -100)
+|#
 
+(define (test x)
+  (cond
+    ( (< x 10) (+ x 5))
+    ( (> x 10) (+ x 10))))
+
+(test 5)
+(test 20)

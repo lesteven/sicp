@@ -1,0 +1,25 @@
+(define (<name> <formal parameters>)
+  <body>)
+
+(cond (<p1> <e1>)
+      (<p2> <e2>)
+      ...
+      (<pn> <en>))
+- each (<p> <e>) are called clauses
+  - first expression is called predicated, evalutes to true or false
+    - if p1 false, then p2 evaluated, if p2 false, then p3.
+    - once true, consequent expression <e> is evaluated
+
+(if <predicate> <consequent> <alternative>)
+- if true, evaluate consequent, else alternative.
+
+(and <e1> ... <en>)
+- if any false, then evaluates to false, rest not evaluated
+- if all true, expression is value of last one
+
+(or <e1> ... <en>)
+- check until value found to be true, then rest not evaluated.
+- if all false, expression set to false
+
+(not <e>)
+- true when exp. evaluates to false, and vice versa
