@@ -27,3 +27,26 @@
 Block structure
 - define subroutines within function to hide implementation
   details
+
+(lambda (<formal-parameter>) <body>)
+- create procedures without naming it (anonymous function)
+
+(let ((<var1> <exp1>)
+      (<var2> <exp2>)
+      ...
+      (<varn> <expn>))
+  <body>)
+
+let var1 have value exp1, 
+    var2 have value exp2,
+    ... varn have value expn
+in body
+
+let
+- when defining variables, it uses global definition
+- inside body, it uses local definition (even when global is available)
+  - if global available, and local not defined, global will be used
+
+
+
+

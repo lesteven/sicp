@@ -24,5 +24,17 @@
 
 (multadd2 5 10)
 
+(define (square x) (* x x))
+
+(define (f x y)
+  ((lambda (a b)
+    (+ (* x (square a))
+       (* y b)
+       (* a b)))
+    (+ 1 (* x y))
+    (- 1 y)))
+
+(f 10 10)
+
 
 
