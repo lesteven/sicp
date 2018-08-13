@@ -47,6 +47,14 @@ let
 - inside body, it uses local definition (even when global is available)
   - if global available, and local not defined, global will be used
 
+cons (construct)
+- creates compound structure called pair
+car (Contents of Address part of Register)
+- first item in cons
+cdr (Contents of Decrement part of Register)
+- second item in cons
 
+list-structured data
+- data objects constructed from pairs
 
 
