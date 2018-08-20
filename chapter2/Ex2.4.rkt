@@ -1,5 +1,10 @@
 #lang sicp
 
+#|
+  cons1 returns lambda function
+  - that function takes input from outer function as input
+  car1 takes cons1 value and gives lambda function as input
+|#
 
 (define (cons1 x y)
   (lambda (m) (m x y)))
