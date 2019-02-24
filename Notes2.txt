@@ -1,0 +1,4 @@
+lambdas
+- use when you wanna pass anonymous function to a higher order
+  function.
+- could use for currying

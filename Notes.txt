@@ -53,8 +53,14 @@ car (Contents of Address part of Register)
 - first item in cons
 cdr (Contents of Decrement part of Register)
 - second item in cons
+cadr
+- car (cdr list)
+caddr
+- car (cdr (cdr list))
+
 
 list-structured data
 - data objects constructed from pairs
 
-
+symbols
+- nonnumeric data such as strings
